@@ -6,6 +6,7 @@
     
         <link rel="stylesheet" type="text/css" href="Sun.css">
         
+        
           
         
         <meta charset="UTF-8">
@@ -123,11 +124,12 @@
                             
                         }
                     }
+                   
 
                 
                    
 
-                  
+                    
                     let margeClassList = [
                         'no-class',
                         'margingleft25',
@@ -259,6 +261,10 @@
             let clickCounterDiv = document.getElementById('counter-click');
             clickCounterDiv.innerHTML = "";
             clickCounterDiv.innerHTML = 'Vous avez calculé ' + clickCounter + ' fois.';*/
+           
+ 
+ 
+ 
         }
 
         
@@ -501,16 +507,19 @@
 
            return null;
         }
+
+     
+
+
     </script>
     </head>
     <body>
     
-   
+
     
   
         
-            <div class="dropdown" >
-                <button class="click" for="formula">Choisir</button>
+                
                 <div class="list">
                 <select name="formula" id="formula">
                 <option value="">Choisir</option>
@@ -549,7 +558,7 @@
              <span>Quantité</span>
       </div>
     
-        <a href="#" onclick="recipe();"style="--clr:#1e9bff"><span>Calculer</span><i></i></a> 
+        <a href="#" onclick="recipe()" style="--clr:#1e9bff"><span>Calculer</span><i></i></a> 
                 
     </div>
             
